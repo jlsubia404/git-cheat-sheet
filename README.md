@@ -9,3 +9,6 @@ Very useful git commands
 
 ###### Restore all working tree files with top pathspec magic
 <b>git restore :/</b>
+
+###### Show all branches with the las commit of each one. Addiontaly, mark with '*' the current branch
+<b>git branch -v</b>
