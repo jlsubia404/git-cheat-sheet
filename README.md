@@ -46,3 +46,8 @@ git pull origin master --allow-unrelated-histories
 ```shell
 git [comando] --help
 ```
+###### Add changes to the las commit with edit the message / Agrega los  cambios que hice al commit anterior. Ej: Cuando nos olvidamos de hacer commit de un archivo, entonces solo lanzamos ammend en lugar de crear otro commit
+
+```shell
+git commit --amend --no-edit
+```
