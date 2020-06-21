@@ -8,7 +8,7 @@ git clone git@github:me/name.git .
 
 ###### Add a remote to a folder / Agregar un remoto a una carpeta
 ```shell
-git remote add origin https://github.com/jlsubia404/hyperblog.git</b>
+git remote add origin https://github.com/jlsubia404/hyperblog.git
 ```
 ###### Show origins / Muestra los origines 
 ```shell
