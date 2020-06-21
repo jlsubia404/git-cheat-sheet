@@ -1,15 +1,20 @@
 # git-cheat-sheet
-Very useful git commands / Comandos utiles de git
+Very useful git commands / Comandos útiles de git
 
 ###### Clone a repo at the current path / Clonar un repositorio en el path actual
 ```shell
-git clone git@github:me/name.git .
+git clone git@github.com:jlsubia404/git-cheat-sheet.git .
 ```
 
 ###### Add a remote to a folder / Agregar un remoto a una carpeta
 ```shell
-git remote add origin https://github.com/jlsubia404/hyperblog.git
+git remote add origin git@github.com:jlsubia404/git-cheat-sheet.git
 ```
+###### Setting an url with 'origin' name / Establecer una url a un remoto con nombre 'origin'
+```shell
+git remote set-url origin git@github.com:jlsubia404/git-cheat-sheet.git
+```
+
 ###### Show origins / Muestra los origines 
 ```shell
 git remote -v
